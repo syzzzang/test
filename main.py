@@ -50,7 +50,8 @@ for name, model in models:
     names.append(name)
 fig = plt.figure()
 
-fig.subtitle('Classifier Comparison')
+# fig.subtitle('Classifier Comparison')
 ax = fig.add_subplot(111)
 plt.boxplot(results)
 ax.set_xticklabels(names)
+plt.show()
